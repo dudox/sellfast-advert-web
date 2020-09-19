@@ -95,7 +95,7 @@
                         Follow sellfastNG <i class="fa fa-mouse-pointer" style="padding: 0 0 0 10px; font-size: 20px"></i>
                     </a>
                 </div>
-                <div class="content call-to-action-1">
+                {{-- <div class="content call-to-action-1">
                     <h1 class="center-text font-24">Our Hotline</h1>
                     <p class="center-text" style="margin: 0%;">
                         Our support team is available 24/7 to attend to your needs. feel free to interract with us
@@ -107,8 +107,9 @@
                     <div class="one-half last-column">
                         <a href="#" class="shadow-small button button-s button-full button-rounded button-green uppercase ultrabold">Whatsapp Now</a>
                     </div>
-                </div>
+                </div> --}}
             </div>
+            <div class="decoration decoration-margins"></div>
             <div class="content-title bottom-20">
                 <span class="color-highlight">offers</span>
                 <h1>Choose a plan</h1>

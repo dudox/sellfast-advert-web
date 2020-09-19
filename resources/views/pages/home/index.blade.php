@@ -128,54 +128,62 @@
             </div>
             <div class="slider-margins bottom-30">
                 <div class="double-slider owl-carousel owl-no-dots">
-                    <a href="#" data-menu="menu-starter" class="item bottom-10 shadow-small" style="padding: 20px; background: #fbbc24; color:#000;">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color- uppercase ultrabold"><i
-                                    class="fa fa-star top-20 fa-lg"></i></strong>
-                        </div>
-                        <br>
-                        <div class="bottom-10 ">
-                            <h1 class="color- bolder">Starter pack</h1>
-                            <h5 class="color- font-11">Online payment.</h5>
-                        </div>
+                    <div  class="item bottom-10 shadow-small" >
+                        <a href="javascript;" data-menu="menu-starter" style="padding: 20px; background: #fbbc24; color:#000;">
+                            <div class="above-overlay above-overlay-top">
+                                <strong class="color- uppercase ultrabold"><i
+                                        class="fa fa-star top-20 fa-lg"></i></strong>
+                            </div>
+                            <br>
+                            <div class="bottom-10 ">
+                                <h1 class="color- bolder">Starter pack</h1>
+                                <h5 class="color- font-11">Online payment.</h5>
+                            </div>
+                        </a>
 
-                    </a>
-                    <a href="#" data-menu="menu-premium" class="item bottom-10 shadow-small" style="padding: 20px; background:#f83265; color: #000;">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color- uppercase ultrabold"><i
-                                    class="fa fa-award top-20 fa-lg"></i></strong>
-                        </div>
-                        <br>
-                        <div class="bottom-10 ">
-                            <h1 class="color- bolder">Premium pack</h1>
-                            <h5 class="color- font-11">Bank transfer.</h5>
-                        </div>
+                    </div>
+                    <div  class="item bottom-10 shadow-small">
+                        <a href="javascript;" data-menu="menu-premium" style="padding: 20px; background: #fbbc24; color:#000;">
+                            <div class="above-overlay above-overlay-top">
+                                <strong class="color- uppercase ultrabold"><i
+                                        class="fa fa-award top-20 fa-lg"></i></strong>
+                            </div>
+                            <br>
+                            <div class="bottom-10 ">
+                                <h1 class="color- bolder">Premium pack</h1>
+                                <h5 class="color- font-11">Bank transfer.</h5>
+                            </div>
+                        </a>
 
-                    </a>
-                    <a href="#" data-menu="menu-vip" class="item bottom-10 shadow-small" style="padding: 20px; background:#39b759; color: #000;">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color- uppercase ultrabold"><i
-                                    class="fa fa-box top-20 fa-lg"></i></strong>
-                        </div>
-                        <br>
-                        <div class="bottom-10 ">
-                            <h1 class="color- bolder">VIP <br/>pack</h1>
-                            <h5 class="color- font-11">Bank transfer.</h5>
-                        </div>
+                    </div>
+                    <div class="item bottom-10 shadow-small" >
+                        <a href="javascript;" data-menu="menu-vip" style="padding: 20px; background: #fbbc24; color:#000;">
+                            <div class="above-overlay above-overlay-top">
+                                <strong class="color- uppercase ultrabold"><i
+                                        class="fa fa-box top-20 fa-lg"></i></strong>
+                            </div>
+                            <br>
+                            <div class="bottom-10 ">
+                                <h1 class="color- bolder">VIP <br/>pack</h1>
+                                <h5 class="color- font-11">Bank transfer.</h5>
+                            </div>
+                        </a>
 
-                    </a>
-                    <a href="#" data-menu="menu-basic" class="item bottom-10 shadow-small" style="padding: 20px; background: #727cf5; color:#000;">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color- uppercase ultrabold"><i
-                                    class="fa fa-gift top-20 fa-lg"></i></strong>
-                        </div>
-                        <br>
-                        <div class="bottom-10 ">
-                            <h1 class="color- bolder">Basic pack</h1>
-                            <h5 class="color- font-11">Banks transfer.</h5>
-                        </div>
+                    </div>
+                    <div class="item bottom-10 shadow-small">
+                        <a href="javascript;" data-menu="menu-basic" style="padding: 20px; background: #fbbc24; color:#000;">
+                            <div class="above-overlay above-overlay-top">
+                                <strong class="color- uppercase ultrabold"><i
+                                        class="fa fa-gift top-20 fa-lg"></i></strong>
+                            </div>
+                            <br>
+                            <div class="bottom-10 ">
+                                <h1 class="color- bolder">Basic pack</h1>
+                                <h5 class="color- font-11">Banks transfer.</h5>
+                            </div>
+                        </a>
 
-                    </a>
+                    </div>
                 </div>
             </div>
             <div class="decoration decoration-margins"></div>

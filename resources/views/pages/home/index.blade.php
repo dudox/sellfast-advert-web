@@ -143,7 +143,7 @@
 
                     </div>
                     <div  class="item bottom-10 shadow-small">
-                        <a href="javascript;" data-menu="menu-premium" style="padding: 20px; background: #fbbc24; color:#000;">
+                        <a href="javascript;" data-menu="menu-premium" style="padding: 20px; background: #f83265; color:#000;">
                             <div class="above-overlay above-overlay-top">
                                 <strong class="color- uppercase ultrabold"><i
                                         class="fa fa-award top-20 fa-lg"></i></strong>
@@ -157,7 +157,7 @@
 
                     </div>
                     <div class="item bottom-10 shadow-small" >
-                        <a href="javascript;" data-menu="menu-vip" style="padding: 20px; background: #fbbc24; color:#000;">
+                        <a href="javascript;" data-menu="menu-vip" style="padding: 20px; background: #39b759; color:#000;">
                             <div class="above-overlay above-overlay-top">
                                 <strong class="color- uppercase ultrabold"><i
                                         class="fa fa-box top-20 fa-lg"></i></strong>
@@ -171,7 +171,7 @@
 
                     </div>
                     <div class="item bottom-10 shadow-small">
-                        <a href="javascript;" data-menu="menu-basic" style="padding: 20px; background: #fbbc24; color:#000;">
+                        <a href="javascript;" data-menu="menu-basic" style="padding: 20px; background: #727cf5; color:#000;">
                             <div class="above-overlay above-overlay-top">
                                 <strong class="color- uppercase ultrabold"><i
                                         class="fa fa-gift top-20 fa-lg"></i></strong>

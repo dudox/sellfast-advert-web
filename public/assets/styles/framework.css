@@ -4801,6 +4801,7 @@ input[type=range]::-webkit-slider-thumb:after {
 .pricing-2,
 .pricing-3,
 .pricing-4 {
+    width: 286px;
     margin: 0 auto;
     border-radius: 20px;
     overflow: hidden
@@ -5033,13 +5034,13 @@ input[type=range]::-webkit-slider-thumb:after {
 }
 
 .pricing-4 .pricing-list {
-    padding: 0px 20px;
+    padding: 0px 10px;
     margin-bottom: 20px
 }
 
 .pricing-4 .pricing-list li {
     border-bottom: solid 1px rgba(0, 0, 0, .07);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     color: #000;
 }

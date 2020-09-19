@@ -1,6 +1,6 @@
 <div class="menu-title">
-    <span class="color-highlight">Our affordable offers</span>
-    <h1>Starter pack</h1>
+    <span class="color-highlight" style="margin-left: 20px">Our affordable offers</span>
+    <h1 style="margin-left: 20px">Starter pack</h1>
     <a href="#" class="menu-hide"><i class="fa fa-times"></i></a>
 </div>
 <div class="conten" style="margin: 0px">

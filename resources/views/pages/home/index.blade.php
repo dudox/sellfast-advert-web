@@ -7,8 +7,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
     <title>SellfastNG</title>
     <link rel="stylesheet" type="text/css" href="{{asset('assets/fonts/css/fontawesome-all.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/styles/framework.css')}}">
@@ -30,8 +29,7 @@
     </div>
     <div id="page-transitions" class="page-build light-skin highlight-blue">
         <div id="menu-hider"></div>
-        <div id="menu-list" data-selected="menu-index" data-load="{{route('menu')}}" data-height="415"
-            class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-list" data-selected="menu-index" data-load="{{route('menu')}}" data-height="415" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-demo" data-load="{{ route('settings') }}" data-height="210" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-find" data-load="menu-find.html" data-height="420" class="menu-box menu-load menu-bottom"></div>
         <div class="header header-scroll-effect">
@@ -39,16 +37,16 @@
                 <a href="#" class="back-button">
                     <img src="{{asset('assets/images/logo.png')}}" style="width: 30px; margin: 5px 0px 10px 10px" alt="">
                 </a>
-                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="gift"></i></a>
-                <a href="https://www.instagram.com/sellfast.ng/" target="_blank"  class="header-icon header-icon-2 "><i data-feather="instagram"></i></a>
-                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
+                <a href="#" data-menu="menu-list" class="header-icon header-icon-3"><i data-feather="menu"></i></a>
+                <a href="https://www.instagram.com/sellfast.ng/" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px;"></i></a>
+                <a href="#" data-menu="menu-demo" class="header-icon header-icon-1"><i data-feather="settings"></i></a>
 
             </div>
-            <div class="header-line-2 header-scroll-effect" >
+            <div class="header-line-2 header-scroll-effect">
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
                 <a href="#" class="header-title">Welcome</a>
-                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="gift"></i></a>
-                <a href="https://www.instagram.com/sellfast.ng/" target="_blank"  class="header-icon header-icon-2 "><i data-feather="instagram"></i></a>
+                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a>
+                <a href="https://www.instagram.com/sellfast.ng/" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
                 <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
 
             </div>
@@ -93,9 +91,8 @@
                     <p class="center-text" style="margin: 0%;">
                         Follow us on our instagram handle
                     </p>
-                    <a href="https://www.instagram.com/sellfast.ng/"
-                        class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important">
-                        Follow sellfastNG
+                    <a href="https://www.instagram.com/sellfast.ng/" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important">
+                        Follow sellfastNG <i class="fa fa-mouse-pointer" style="padding: 0 0 0 10px; font-size: 20px"></i>
                     </a>
                 </div>
                 <div class="content call-to-action-1">
@@ -103,20 +100,68 @@
                     <p class="center-text" style="margin: 0%;">
                         Our support team is available 24/7 to attend to your needs. feel free to interract with us
                     </p>
-                    <div class="one-half" >
-                        <a href="#"
-                            class="shadow-small button button-s button-full button-rounded bg-highlight uppercase ultrabold">Call
+                    <div class="one-half">
+                        <a href="#" class="shadow-small button button-s button-full button-rounded bg-highlight uppercase ultrabold">Call
                             Now</a>
                     </div>
                     <div class="one-half last-column">
-                        <a href="#"
-                            class="shadow-small button button-s button-full button-rounded button-green uppercase ultrabold">Whatsapp Now</a>
+                        <a href="#" class="shadow-small button button-s button-full button-rounded button-green uppercase ultrabold">Whatsapp Now</a>
                     </div>
                 </div>
             </div>
-            <span class="center-text font-10 bottom-20 color-night-light">Swipe me to the left. Multiple Call To Actions
-                are Available</span>
-            <div class="decoration decoration-margins"></div>
+            <div class="content-title bottom-20">
+                <span class="color-highlight">offers</span>
+                <h1>Choose a plan</h1>
+                <a href="#" class="color-highlight">See All</a>
+            </div>
+            <div class="slider-margins">
+                <div class="double-slider owl-carousel bottom-10 owl-no-dots">
+                    <div class="item">
+                        <div>
+
+                            <div class="overlay bg-dark opacity-60"></div>
+                            <a href="#"><img src="{{asset('assets/images/plans/01.png')}}" alt="img" class="responsive-image"></a>
+                        </div>
+                        <h4 class="bolder">Starter Pack</h4>
+                        <p>
+                            <strong>₦ 700.00</strong>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div>
+
+                            <div class="overlay bg-dark opacity-60"></div>
+                            <a href="#"><img src="{{asset('assets/images/plans/02.png')}}" alt="img" class="responsive-image"></a>
+                        </div>
+                        <h4 class="bolder">Premium Pack</h4>
+                        <p>
+                            <strong>₦ 1000.00</strong>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div>
+
+                            <div class="overlay bg-dark opacity-60"></div>
+                            <a href="#"><img src="{{asset('assets/images/plans/03.png')}}" alt="img" class="responsive-image"></a>
+                        </div>
+                        <h4 class="bolder">VIP Pack</h4>
+                        <p>
+                            <strong>₦ 1500.00</strong>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div>
+
+                            <div class="overlay bg-dark opacity-60"></div>
+                            <a href="#"><img src="{{asset('assets/images/plans/04.png')}}" alt="img" class="responsive-image"></a>
+                        </div>
+                        <h4 class="bolder">Basic Pack</h4>
+                        <p>
+                            <strong>₦ 500.00</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -125,6 +170,7 @@
     <script type="text/javascript" src="{{asset('assets/scripts/custom.js')}}"></script>
     <script>
         feather.replace()
+
     </script>
 </body>
 

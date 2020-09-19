@@ -28,11 +28,22 @@
         <em><span class="font-weght-bold" style="font-weight: 900; font-size: 14px">Powered by sellfastNG</span></em>
     </div>
     <div id="page-transitions" class="page-build light-skin highlight-blue">
+
+
+
+
         <div id="menu-hider"></div>
         <div id="menu-list" data-selected="menu-index" data-load="{{route('menu')}}" data-height="415" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-demo" data-load="{{ route('settings') }}" data-height="210" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-find" data-load="menu-find.html" data-height="420" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-starter" data-load="{{ route('starter') }}" data-height="460" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-premium" data-load="{{ route('premium') }}" data-height="460" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-vip" data-load="{{ route('vip') }}" data-height="460" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-basic" data-load="{{ route('basic') }}" data-height="360" class="menu-box menu-load menu-bottom"></div>
+
+
+
+
         <div class="header header-scroll-effect">
             <div class="header-line-1 header-hidden ">
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
@@ -112,23 +123,59 @@
             <div class="decoration decoration-margins"></div>
             <div class="content-title bottom-20">
                 <span class="color-highlight" style="font-size: 14px; margin-bottom:0px">Choose a plan</span>
-                <h1 style="font-size: 20px; line-height:17px">Advertise on our Instagram <br/>page</h1>
+                <h1 style="font-size: 21px; line-height:20px">Advertise on our Instagram <br/>page</h1>
                 <a class="color-highlight">See All</a>
             </div>
-            <div id="search-page">
-
-                <div id="menu-search-list">
-
-                    <div class="search-results disabled-search-list bottom-10">
-                        <div class="search-result-list">
-                            <img src="assets/images/empty.png" class="preload-search-image" data-src="assets/images/pictures/1s.jpg" alt="img">
-                            <h1>Mega Mobile</h1>
-                            <p>
-                                Mega Flexible and Feature Filled Mobile Template.
-                            </p>
-                            <a href="#" class="bg-highlight">VIEW</a>
+            <div class="slider-margins bottom-30">
+                <div class="double-slider owl-carousel owl-no-dots">
+                    <a href="#" data-menu="menu-starter" class="item bottom-10 shadow-small" style="padding: 20px; background: #fbbc24; color:#000;">
+                        <div class="above-overlay above-overlay-top">
+                            <strong class="color- uppercase ultrabold"><i
+                                    class="fa fa-star top-20 fa-lg"></i></strong>
                         </div>
-                    </div>
+                        <br>
+                        <div class="bottom-10 ">
+                            <h1 class="color- bolder">Starter pack</h1>
+                            <h5 class="color- font-11">Online payment.</h5>
+                        </div>
+
+                    </a>
+                    <a href="#" data-menu="menu-premium" class="item bottom-10 shadow-small" style="padding: 20px; background:#f83265; color: #000;">
+                        <div class="above-overlay above-overlay-top">
+                            <strong class="color- uppercase ultrabold"><i
+                                    class="fa fa-award top-20 fa-lg"></i></strong>
+                        </div>
+                        <br>
+                        <div class="bottom-10 ">
+                            <h1 class="color- bolder">Premium pack</h1>
+                            <h5 class="color- font-11">Bank transfer.</h5>
+                        </div>
+
+                    </a>
+                    <a href="#" data-menu="menu-vip" class="item bottom-10 shadow-small" style="padding: 20px; background:#39b759; color: #000;">
+                        <div class="above-overlay above-overlay-top">
+                            <strong class="color- uppercase ultrabold"><i
+                                    class="fa fa-box top-20 fa-lg"></i></strong>
+                        </div>
+                        <br>
+                        <div class="bottom-10 ">
+                            <h1 class="color- bolder">VIP <br/>pack</h1>
+                            <h5 class="color- font-11">Bank transfer.</h5>
+                        </div>
+
+                    </a>
+                    <a href="#" data-menu="menu-basic" class="item bottom-10 shadow-small" style="padding: 20px; background: #727cf5; color:#000;">
+                        <div class="above-overlay above-overlay-top">
+                            <strong class="color- uppercase ultrabold"><i
+                                    class="fa fa-gift top-20 fa-lg"></i></strong>
+                        </div>
+                        <br>
+                        <div class="bottom-10 ">
+                            <h1 class="color- bolder">Basic pack</h1>
+                            <h5 class="color- font-11">Banks transfer.</h5>
+                        </div>
+
+                    </a>
                 </div>
             </div>
             <div class="decoration decoration-margins"></div>

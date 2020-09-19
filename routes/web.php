@@ -17,4 +17,8 @@ Route::get('/','PagesController@index');
 Route::get('/menu','PagesController@menu')->name('menu');
 Route::get('/settings','PagesController@settings')->name('settings');
 Route::get('/starter','PagesController@starter')->name('starter');
+Route::get('/premium','PagesController@premium')->name('premium');
+Route::get('/vip','PagesController@vip')->name('vip');
+Route::get('/basic','PagesController@basic')->name('basic');
+
 

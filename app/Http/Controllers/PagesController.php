@@ -25,4 +25,19 @@ class PagesController extends Controller
     {
         return view('plans.starter');
     }
+
+    public function premium()
+    {
+        return view('plans.premium');
+    }
+
+    public function vip()
+    {
+        return view('plans.vip');
+    }
+
+    public function basic()
+    {
+        return view('plans.basic');
+    }
 }

@@ -13,10 +13,16 @@ class PagesController extends Controller
 
     public function menu()
     {
-        return view('components.menu');
+        return view('menus.list');
     }
+
     public function settings()
     {
-        return view('components.settings');
+        return view('menus.settings');
+    }
+
+    public function starter()
+    {
+        return view('plans.starter');
     }
 }

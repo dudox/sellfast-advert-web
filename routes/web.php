@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','PagesController@index');
 Route::get('/menu','PagesController@menu')->name('menu');
 Route::get('/settings','PagesController@settings')->name('settings');
+Route::get('/starter','PagesController@starter')->name('starter');
 

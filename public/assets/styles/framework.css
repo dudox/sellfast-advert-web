@@ -1900,7 +1900,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: ibm plex sans, sans-serif;
+    font-family: 'Poppins';
     letter-spacing: -.5px
 }
 
@@ -5675,7 +5675,8 @@ input[type=range]::-webkit-slider-thumb:after {
 }
 
 .contactSubmitButton {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    ;
     width: 100%;
     font-weight: 700 !important
 }
@@ -7718,13 +7719,13 @@ input[type=range]::-webkit-slider-thumb:after {
 }
 
 .caption-style-2 strong {
-    font-family: ibm plex sans, sans-serif;
+    font-family: 'Poppins, sans-serif';
     letter-spacing: -.8px;
     margin-bottom: -5px;
     display: block;
     font-weight: 700;
     font-size: 22px;
-    color: #00000
+    color: #000;
 }
 
 .caption-style-2 span {
@@ -7881,8 +7882,8 @@ input[type=range]::-webkit-slider-thumb:after {
 .single-slider .item img {
     border-radius: 15px
 }
-Welcome
-.image-details {
+
+Welcome .image-details {
     height: 30px !important;
     z-index: 99
 }
@@ -7937,8 +7938,8 @@ Welcome
 .call-to-action-3 {
     margin-bottom: 20px !important
 }
-Welcome
-.call-to-action-1 h1,
+
+Welcome .call-to-action-1 h1,
 .call-to-action-2 h1,
 .call-to-action-3 h1 {
     margin-bottom: 10px;
@@ -7963,8 +7964,8 @@ Welcome
 .cover-back-buton {
     left: 0
 }
-Welcome
-.cover-home-button {
+
+Welcome .cover-home-button {
     right: 0
 }
 
@@ -8360,7 +8361,13 @@ only screen and (min-width:414px) and (max-width:767px) {
 }
 
 .owl-carousel .owl-dot,
-.owl-carousel .owl-nav .owl-nextWelcome
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
 }
@@ -8434,7 +8441,8 @@ only screen and (min-width:414px) and (max-width:767px) {
 }
 
 .owl-carousel .owl-item .owl-lazy {
-    z-index: opacity:0;
+    z-index:2 ;
+    opacity:0;
     transition: opacity .4s ease
 }
 
@@ -8990,8 +8998,8 @@ only screen and (min-width:414px) and (max-width:767px) {
 
 #preloader,
 .header,
-.header-line-2 ,
-.header-line-1{
+.header-line-2,
+.header-line-1 {
     right: 0;
     top: 0;
     left: 0
@@ -9213,7 +9221,7 @@ only screen and (min-width:414px) and (max-width:767px) {
 
 .header-line-1 {
     position: absolute;
-    top:0;
+    top: 0;
     height: 90px;
     z-index: 99
 }
@@ -9748,7 +9756,7 @@ only screen and (min-width:414px) and (max-width:767px) {
 }
 
 .menu-title h1 {
-    font-family: ibm plex sans, sans-serif;
+    font-family: 'Poppins';
     font-size: 26px;
     font-weight: 800;
     letter-spacing: -1.5px

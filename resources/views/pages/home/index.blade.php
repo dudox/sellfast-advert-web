@@ -38,7 +38,7 @@
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
                 <a href="#" class="header-title">SellfastNG</a>
                 <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a>
-                <a href="https://www.instagram.com/sellfast.ng/" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px;"></i></a>
+                <a href="https://wa.me/2348127584647" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
                 <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
 
             </div>
@@ -46,7 +46,7 @@
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
                 <a href="#" class="header-title">SellfastNG</a>
                 <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a>
-                <a href="https://www.instagram.com/sellfast.ng/" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
+                <a href="https://wa.me/2348127584647" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
                 <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
 
             </div>
@@ -88,11 +88,11 @@
                             <img style="width: 150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="">
                         </center>
                     </h1>
-                    <p class="center-text" style="margin: 0%;">
-                        Follow us on our instagram handle
+                    <p class="center-text" style="margin: 0px 0px 15px 0px; line-height:22px; color: #000;  font-size:14px">
+                        Over 21,000 people advertise on our Instagram page
                     </p>
                     <a href="https://www.instagram.com/sellfast.ng/" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important">
-                        Follow sellfastNG <i class="fa fa-mouse-pointer" style="padding: 0 0 0 10px; font-size: 20px"></i>
+                        Click here to follow us <i class="fa fa-mouse-pointer" style="padding: 0 0 0 10px; font-size: 20px"></i>
                     </a>
                 </div>
                 {{-- <div class="content call-to-action-1">
@@ -111,8 +111,8 @@
             </div>
             <div class="decoration decoration-margins"></div>
             <div class="content-title bottom-20">
-                <span class="color-highlight">offers</span>
-                <h1>Choose a plan</h1>
+                <span class="color-highlight" style="font-size: 14px; margin-bottom:0px">Choose a plan</span>
+                <h1 style="font-size: 20px; line-height:17px">Advertise on our Instagram <br/>page</h1>
                 <a class="color-highlight">See All</a>
             </div>
             <div id="search-page">
@@ -120,7 +120,7 @@
                 <div id="menu-search-list">
 
                     <div class="search-results disabled-search-list bottom-10">
-                        <div  class="search-result-list">
+                        <div class="search-result-list">
                             <img src="assets/images/empty.png" class="preload-search-image" data-src="assets/images/pictures/1s.jpg" alt="img">
                             <h1>Mega Mobile</h1>
                             <p>

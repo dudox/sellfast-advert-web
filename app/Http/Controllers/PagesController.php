@@ -10,4 +10,13 @@ class PagesController extends Controller
     {
         return view('pages.home.index');
     }
+
+    public function menu()
+    {
+        return view('components.menu');
+    }
+    public function settings()
+    {
+        return view('components.settings');
+    }
 }

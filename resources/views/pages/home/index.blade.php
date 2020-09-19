@@ -30,25 +30,27 @@
     </div>
     <div id="page-transitions" class="page-build light-skin highlight-blue">
         <div id="menu-hider"></div>
-        <div id="menu-list" data-selected="menu-index" data-load="menu-list.html" data-height="415"
+        <div id="menu-list" data-selected="menu-index" data-load="{{route('menu')}}" data-height="415"
             class="menu-box menu-load menu-bottom"></div>
-        <div id="menu-demo" data-load="menu-demo.html" data-height="210" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-demo" data-load="{{ route('settings') }}" data-height="210" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-find" data-load="menu-find.html" data-height="420" class="menu-box menu-load menu-bottom"></div>
         <div class="header header-scroll-effect">
             <div class="header-line-1 header-hidden header-logo-left">
                 <a href="#" class="back-button">
                     <img src="{{asset('assets/images/logo.png')}}" style="width: 30px; margin: 5px 0px 10px 10px" alt="">
                 </a>
-                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="globe"></i></a>
-                <a href="#" data-menu="menu-find" class="header-icon header-icon-2"><i data-feather="message-square"></i></a>
-                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3 "><i data-feather="instagram"></i></a>
+                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="gift"></i></a>
+                <a href="https://www.instagram.com/sellfast.ng/" target="_blank"  class="header-icon header-icon-2 "><i data-feather="instagram"></i></a>
+                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
+
             </div>
             <div class="header-line-2 header-scroll-effect" >
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
                 <a href="#" class="header-title">Welcome</a>
-                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="globe"></i></a>
-                <a href="#" data-menu="menu-find" class="header-icon header-icon-2"><i data-feather="message-square"></i></a>
-                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3 "><i data-feather="instagram"></i></a>
+                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="gift"></i></a>
+                <a href="https://www.instagram.com/sellfast.ng/" target="_blank"  class="header-icon header-icon-2 "><i data-feather="instagram"></i></a>
+                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
+
             </div>
         </div>
         <div class="page-content header-clear-large">
@@ -61,7 +63,7 @@
                     </div>
                     <div class="item shadow-small">
 
-                        <div class="overlay overlay-gradient-large"></div>
+                        <div class="overlay bg-black opacity-50"></div>
                         <img src="{{asset('assets/images/banners/02.JPG')}}" alt="img">
                     </div>
                     <div class="item shadow-small">
@@ -91,7 +93,7 @@
                     <p class="center-text" style="margin: 0%;">
                         Follow us on our instagram handle
                     </p>
-                    <a href="homepages.html"
+                    <a href="https://www.instagram.com/sellfast.ng/"
                         class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important">
                         Follow sellfastNG
                     </a>

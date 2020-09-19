@@ -32,20 +32,19 @@
         <div id="menu-list" data-selected="menu-index" data-load="{{route('menu')}}" data-height="415" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-demo" data-load="{{ route('settings') }}" data-height="210" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-find" data-load="menu-find.html" data-height="420" class="menu-box menu-load menu-bottom"></div>
-        <div id="menu-starter" data-load="{{ route('starter') }}" data-height="450" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-starter" data-load="{{ route('starter') }}" data-height="460" class="menu-box menu-load menu-bottom"></div>
         <div class="header header-scroll-effect">
-            <div class="header-line-1 header-hidden header-logo-left">
-                <a href="#" class="back-button">
-                    <img src="{{asset('assets/images/logo.png')}}" style="width: 30px; margin: 5px 0px 10px 10px" alt="">
-                </a>
-                <a href="#" data-menu="menu-list" class="header-icon header-icon-3"><i data-feather="menu"></i></a>
+            <div class="header-line-1 header-hidden ">
+                <a href="#" class="header-pretitle header-date color-highlight"></a>
+                <a href="#" class="header-title">SellfastNG</a>
+                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a>
                 <a href="https://www.instagram.com/sellfast.ng/" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px;"></i></a>
-                <a href="#" data-menu="menu-demo" class="header-icon header-icon-1"><i data-feather="settings"></i></a>
+                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
 
             </div>
             <div class="header-line-2 header-scroll-effect">
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
-                <a href="#" class="header-title">Welcome</a>
+                <a href="#" class="header-title">SellfastNG</a>
                 <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a>
                 <a href="https://www.instagram.com/sellfast.ng/" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
                 <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
@@ -114,58 +113,21 @@
             <div class="content-title bottom-20">
                 <span class="color-highlight">offers</span>
                 <h1>Choose a plan</h1>
-                <a href="#" data-menu="menu-starter" class="color-highlight">See All</a>
+                <a class="color-highlight">See All</a>
             </div>
+            <div id="search-page">
 
-            <div class="slider-margins bottom-30">
-                <div class="double-slider owl-carousel owl-no-dots">
-                    <div class="item bottom-10 shadow-small">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color-white uppercase ultrabold"><i
-                                    class="fa fa-heartbeat top-20 fa-3x"></i></strong>
+                <div id="menu-search-list">
+
+                    <div class="search-results disabled-search-list bottom-10">
+                        <div  class="search-result-list">
+                            <img src="assets/images/empty.png" class="preload-search-image" data-src="assets/images/pictures/1s.jpg" alt="img">
+                            <h1>Mega Mobile</h1>
+                            <p>
+                                Mega Flexible and Feature Filled Mobile Template.
+                            </p>
+                            <a href="#" class="bg-highlight">VIEW</a>
                         </div>
-                        <div class="above-overlay above-overlay-bottom bottom-10">
-                            <h1 class="color-white bolder">Starter pack</h1>
-                            <h5 class="color-white font-11">All Features Tested and Checked.</h5>
-                        </div>
-                        <div class="overlay bg-red-light"></div>
-                        <a href="#" data-menu="menu-list"><img src="assets/images/pictures/0t.jpg" alt="img" class="responsive-image"></a>
-                    </div>
-                    <div class="item bottom-10 shadow-small">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color-white uppercase ultrabold"><i
-                                    class="fa fa-user-friends top-20 fa-3x"></i></strong>
-                        </div>
-                        <div class="above-overlay above-overlay-bottom bottom-10">
-                            <h1 class="color-white bolder" style="font-size: 20px">Premium pack</h1>
-                            <h5 class="color-white font-11">Easy to use and edit by Everyone.</h5>
-                        </div>
-                        <div class="overlay bg-green-dark"></div>
-                        <a href="#"><img src="assets/images/pictures/0t.jpg" alt="img" class="responsive-image"></a>
-                    </div>
-                    <div class="item bottom-10 shadow-small">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color-white uppercase ultrabold"><i
-                                    class="fa fa-certificate top-20 fa-3x"></i></strong>
-                        </div>
-                        <div class="above-overlay above-overlay-bottom bottom-10">
-                            <h1 class="color-white bolder">VIP pack</h1>
-                            <h5 class="color-white font-11">Built by the Best Mobile Authors on Envato.</h5>
-                        </div>
-                        <div class="overlay bg-blue-dark"></div>
-                        <a href="#"><img src="assets/images/pictures/0t.jpg" alt="img" class="responsive-image"></a>
-                    </div>
-                    <div class="item bottom-10 shadow-small">
-                        <div class="above-overlay above-overlay-top">
-                            <strong class="color-white uppercase ultrabold"><i
-                                    class="fa fa-rocket top-20 fa-3x"></i></strong>
-                        </div>
-                        <div class="above-overlay above-overlay-bottom bottom-10">
-                            <h1 class="color-white bolder">Basic pack</h1>
-                            <h5 class="color-white font-11">Checked and Optimized for Best Performance.</h5>
-                        </div>
-                        <div class="overlay bg-teal-dark"></div>
-                        <a href="#"><img src="assets/images/pictures/0t.jpg" alt="img" class="responsive-image"></a>
                     </div>
                 </div>
             </div>

@@ -3,10 +3,10 @@
     <h1 style="margin-left: 20px">Starter pack</h1>
     <a href="#" class="menu-hide"><i class="fa fa-times"></i></a>
 </div>
-<div class="conten" style="margin: 0px">
+<div class="content" style="margin: 0px">
     <div class="pricing-table pricing-4">
-        <h3 class="pricing-value center-text bg-highlight bottom-10 color-white bolder">₦ 700<sup>.00</sup></h3>
-        <h2 class="pricing-subtitle center-text bg-highlight bottom-30">Online payment</h2>
+        <h3 class="pricing-value center-text bottom-10  bolder" style="background:#fbbd22">₦ 700<sup>.00</sup></h3>
+        <h2 class="pricing-subtitle center-text bottom-30" style="background:#fbbd22">Online payment</h2>
         <ul class="pricing-list bottom-30">
             <li><i class="fa fa-check-circle "></i> You get two advert post</li>
             <li><i class="fa fa-check-circle"></i> Your advert remain on our page for 14 days</li>
@@ -14,7 +14,7 @@
             <li><i class="fa fa-check-circle"></i> Customer price request notification</li>
             <li><i class="fa fa-check-circle"></i> High conversion rate</li>
         </ul>
-        <a href="#" class="button bg-highlight button-s button-center-large button-rounded uppercase ultrabold">Proceed to payment</a>
+        <a href="#" class="button button-s button-center-large button-rounded uppercase ultrabold" style="background:#fbbd22; color: #000;">Proceed to payment</a>
     </div>
     <div class="clear"></div>
 </div>

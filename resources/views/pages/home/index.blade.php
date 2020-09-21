@@ -99,9 +99,9 @@
                             <img style="width: 150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="">
                         </center>
                     </h1>
-                    <p class="center-text" style="margin: 0px 0px 15px 0px; line-height:22px; color: #000;  font-size:14px">
+                    <h1 class="center-text color-dark" style="margin: 0px 0px 15px 0px; line-height:22px; font-size:14px">
                         Over 21,000 people advertise on our Instagram page
-                    </p>
+                    </h1>
                     <a href="https://www.instagram.com/sellfast.ng/" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important; width:100% !important;">
                         Click here to follow us <i class="fa fa-mouse-pointer" style="padding: 0 0 0 10px; font-size: 20px"></i>
                     </a>
@@ -124,7 +124,7 @@
             <div class="content-title bottom-20">
                 <span class="color-highlight" style="font-size: 14px; margin-bottom:0px">Choose a plan</span>
                 <h1 style="font-size: 21px; line-height:20px">Advertise on our Instagram <br/>page</h1>
-                <a class="color-highlight">See All</a>
+                {{-- <a class="color-highlight">See All</a> --}}
             </div>
                 <div style="padding: 0px">
                     <div  class="content call-to-action-1" >

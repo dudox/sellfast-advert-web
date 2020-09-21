@@ -102,7 +102,7 @@
                     <p class="center-text" style="margin: 0px 0px 15px 0px; line-height:22px; color: #000;  font-size:14px">
                         Over 21,000 people advertise on our Instagram page
                     </p>
-                    <a href="https://www.instagram.com/sellfast.ng/" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important">
+                    <a href="https://www.instagram.com/sellfast.ng/" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important; width:100% !important;">
                         Click here to follow us <i class="fa fa-mouse-pointer" style="padding: 0 0 0 10px; font-size: 20px"></i>
                     </a>
                 </div>
@@ -126,66 +126,32 @@
                 <h1 style="font-size: 21px; line-height:20px">Advertise on our Instagram <br/>page</h1>
                 <a class="color-highlight">See All</a>
             </div>
-            <div class="slider-margins bottom-30">
-                <div class="double-slider owl-carousel owl-no-dots">
-                    <div  class="item bottom-10 shadow-small" >
-                        <a href="javascript:void(0)" data-menu="menu-starter" style="padding: 20px; background: #fbbc24; color:#000;">
-                            <div class="above-overlay above-overlay-top">
-                                <strong class="color- uppercase ultrabold"><i
-                                        class="fa fa-star top-20 fa-lg"></i></strong>
-                            </div>
-                            <br>
-                            <div class="bottom-10 ">
-                                <h1 class="color- bolder">Starter pack</h1>
-                                <h5 class="color- font-11">Online payment.</h5>
-                            </div>
+                <div style="padding: 0px">
+                    <div  class="content call-to-action-1" >
+                        <a href="javascript:void(0)" data-menu="menu-starter"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #fbbc24 !important; color:#000; width:100% !important">
+                            Starter pack ( Online payment. )
                         </a>
 
                     </div>
-                    <div  class="item bottom-10 shadow-small">
-                        <a href="javascript:void(0)" data-menu="menu-premium" style="padding: 20px; background: #f83265; color:#000;">
-                            <div class="above-overlay above-overlay-top">
-                                <strong class="color- uppercase ultrabold"><i
-                                        class="fa fa-award top-20 fa-lg"></i></strong>
-                            </div>
-                            <br>
-                            <div class="bottom-10 ">
-                                <h1 class="color- bolder">Premium pack</h1>
-                                <h5 class="color- font-11">Bank transfer.</h5>
-                            </div>
+                    <div  class="content call-to-action-1">
+                        <a href="javascript:void(0)" data-menu="menu-premium"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #f83265 !important; color:#000; width:100% !important">
+                            Premium pack (Bank transfer )
                         </a>
 
                     </div>
-                    <div class="item bottom-10 shadow-small" >
-                        <a href="javascript:void(0)" data-menu="menu-vip" style="padding: 20px; background: #39b759; color:#000;">
-                            <div class="above-overlay above-overlay-top">
-                                <strong class="color- uppercase ultrabold"><i
-                                        class="fa fa-box top-20 fa-lg"></i></strong>
-                            </div>
-                            <br>
-                            <div class="bottom-10 ">
-                                <h1 class="color- bolder">VIP <br/>pack</h1>
-                                <h5 class="color- font-11">Bank transfer.</h5>
-                            </div>
+                    <div  class="content call-to-action-1">
+                        <a href="javascript:void(0)" data-menu="menu-vip" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #39b759 !important; color:#000; width:100% !important">
+                            VIP pack ( Bank transfer )
                         </a>
 
                     </div>
-                    <div class="item bottom-10 shadow-small">
-                        <a href="javascript:void(0)" data-menu="menu-basic" style="padding: 20px; background: #727cf5; color:#000;">
-                            <div class="above-overlay above-overlay-top">
-                                <strong class="color- uppercase ultrabold"><i
-                                        class="fa fa-gift top-20 fa-lg"></i></strong>
-                            </div>
-                            <br>
-                            <div class="bottom-10 ">
-                                <h1 class="color- bolder">Basic pack</h1>
-                                <h5 class="color- font-11">Banks transfer.</h5>
-                            </div>
+                    <div class="content call-to-action-1">
+                        <a href="javascript:void(0)" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" data-menu="menu-basic" style="background: #727cf5 !important; color:#000; width:100% !important">
+                            Basic pack ( Banks transfer )
                         </a>
 
                     </div>
                 </div>
-            </div>
             <div class="decoration decoration-margins"></div>
 
         </div>

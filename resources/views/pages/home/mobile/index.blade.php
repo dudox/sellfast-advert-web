@@ -48,17 +48,17 @@
             <div class="header-line-1 header-hidden ">
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
                 <a href="#" class="header-title">SellfastNG</a>
-                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a>
-                <a href="https://wa.me/2348127584647" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
-                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
+                {{-- <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a> --}}
+                <a href="https://wa.me/2348127584647" target="_blank" class="header-icon header-icon-1 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
+                <a href="#" data-menu="menu-demo" class="header-icon header-icon-2"><i data-feather="settings"></i></a>
 
             </div>
             <div class="header-line-2 header-scroll-effect">
                 <a href="#" class="header-pretitle header-date color-highlight"></a>
                 <a href="#" class="header-title">SellfastNG</a>
-                <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a>
-                <a href="https://wa.me/2348127584647" target="_blank" class="header-icon header-icon-2 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
-                <a href="#" data-menu="menu-demo" class="header-icon header-icon-3"><i data-feather="settings"></i></a>
+                {{-- <a href="#" data-menu="menu-list" class="header-icon header-icon-1"><i data-feather="menu"></i></a> --}}
+                <a href="https://wa.me/2348127584647" target="_blank" class="header-icon header-icon-1 "><i class="fab fa-whatsapp" style="font-size: 24px; color: #2980b9;"></i></a>
+                <a href="#" data-menu="menu-demo" class="header-icon header-icon-2"><i data-feather="settings"></i></a>
 
             </div>
         </div>
@@ -99,7 +99,7 @@
                             <img style="width: 150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="">
                         </center>
                     </h1>
-                    <h1 class="center-text color-dark" style="margin: 0px 0px 15px 0px; line-height:22px; font-size:14px">
+                    <h1 class="center-text color-dark" style="margin: 0px 0px 15px 0px; line-height:22px; font-size:13px">
                         Over 21,000 people advertise on our Instagram page
                     </h1>
                     <a href="https://www.instagram.com/sellfast.ng/" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #af4581 !important; width:100% !important;">
@@ -120,33 +120,32 @@
                     </div>
                 </div> --}}
             </div>
-            <div class="decoration decoration-margins"></div>
             <div class="content-title bottom-20">
-                <span class="color-highlight" style="font-size: 14px; margin-bottom:0px">Choose a plan</span>
-                <h1 style="font-size: 21px; line-height:20px">Advertise on our Instagram <br/>page</h1>
+                {{-- <span class="color-highlight" style="font-size: 14px; margin-bottom:0px"> Choosea plan</span> --}}
+                <h1 style="font-size: 14px; line-height:20px">Choose a plan to advertise on our Instagram page</h1>
                 {{-- <a class="color-highlight">See All</a> --}}
             </div>
                 <div style="padding: 0px">
                     <div  class="content call-to-action-1" >
-                        <a href="javascript:void(0)" data-menu="menu-starter"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #fbbc24 !important; color:#000; width:100% !important">
+                        <a href="javascript:void(0)" data-menu="menu-starter"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #fbbc24 !important; color:#000; width:100% !important; border: none !important">
                             Starter pack ( Online payment. )
                         </a>
 
                     </div>
                     <div  class="content call-to-action-1">
-                        <a href="javascript:void(0)" data-menu="menu-premium"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #f83265 !important; color:#000; width:100% !important">
+                        <a href="javascript:void(0)" data-menu="menu-premium"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #f83265 !important; color:#000; width:100% !important;border: none !important">
                             Premium pack (Bank transfer )
                         </a>
 
                     </div>
                     <div  class="content call-to-action-1">
-                        <a href="javascript:void(0)" data-menu="menu-vip" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #39b759 !important; color:#000; width:100% !important">
+                        <a href="javascript:void(0)" data-menu="menu-vip" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #39b759 !important; color:#000; width:100% !important;border: none !important">
                             VIP pack ( Bank transfer )
                         </a>
 
                     </div>
                     <div class="content call-to-action-1">
-                        <a href="javascript:void(0)" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" data-menu="menu-basic" style="background: #727cf5 !important; color:#000; width:100% !important">
+                        <a href="javascript:void(0)" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" data-menu="menu-basic" style="background: #727cf5 !important; color:#000; width:100% !important;border: none !important">
                             Basic pack ( Banks transfer )
                         </a>
 

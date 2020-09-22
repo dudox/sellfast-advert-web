@@ -393,7 +393,7 @@
             <div class="pricing-plan">
                 <h2 class="plan-title">Starter pack</h2>
                 <div class="plan-cost">
-                    <p class="plan-price">₦ 700</p>
+                    <p class="plan-price">₦ 1000</p>
                     <span>.00</span>
                 </div>
                 <ul class="plan-features">
@@ -409,7 +409,7 @@
             <div class="pricing-plan">
                 <h2 class="plan-title">Premium pack</h2>
                 <div class="plan-cost">
-                    <p class="plan-price">₦ 1000</p>
+                    <p class="plan-price">₦ 1500</p>
                     <span>.00</span>
                 </div>
                 <ul class="plan-features">
@@ -426,7 +426,7 @@
                 <div class="featured-ribbon">Best Value</div>
                 <h2 class="plan-title">VIP Pack</h2>
                 <div class="plan-cost">
-                    <p class="plan-price">1500</p>
+                    <p class="plan-price">2000</p>
                     <span>.00</span>
                 </div>
                 <ul class="plan-features">

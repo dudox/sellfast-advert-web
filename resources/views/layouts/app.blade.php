@@ -57,7 +57,7 @@
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li class="{{ Route::is('home') ? 'active' : '' }}"><a href="{{ route('home') }}">Home</a></li>
-                <li class="{{ Route::is('pricing') ? 'active' : '' }}"><a href="{{route('pricing')}}" >Our plans</a></li>
+                <li class="{{ Route::is('pricing') ? 'active' : '' }}"><a href="{{route('pricing')}}" >Advert rate</a></li>
               </ul>
             </nav>
           </div>

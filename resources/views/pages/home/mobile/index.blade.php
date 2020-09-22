@@ -128,25 +128,25 @@
                 <div style="padding: 0px">
                     <div  class="content call-to-action-1" >
                         <a href="javascript:void(0)" data-menu="menu-starter"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #fbbc24 !important; color:#000; width:100% !important; border: none !important">
-                            Starter pack ( Online payment. ) <i  class="fa fa-arrow-right" style="padding-left: 40px"></i>
+                            Starter pack ( Online payment. ) <i  class="fa fa-arrow-right" style="position: absolute; right:20px !important; top:15px"></i>
                         </a>
 
                     </div>
                     <div  class="content call-to-action-1">
                         <a href="javascript:void(0)" data-menu="menu-premium"  class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"  style="background: #f83265 !important; color:#000; width:100% !important;border: none !important">
-                            Premium pack (Bank transfer ) <i  class="fa fa-arrow-right" style="padding-left: 40px"></i>
+                            Premium pack (Bank transfer ) <i  class="fa fa-arrow-right" style="position: absolute; right:20px !important; top:15px"></i>
                         </a>
 
                     </div>
                     <div  class="content call-to-action-1">
                         <a href="javascript:void(0)" data-menu="menu-vip" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" style="background: #39b759 !important; color:#000; width:100% !important;border: none !important">
-                            VIP pack ( Bank transfer ) <i  class="fa fa-arrow-right" style="padding-left: 40px"></i>
+                            VIP pack ( Bank transfer ) <i  class="fa fa-arrow-right" style="position: absolute; right:20px !important; top:15px"></i>
                         </a>
 
                     </div>
                     <div class="content call-to-action-1">
                         <a href="javascript:void(0)" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" data-menu="menu-basic" style="background: #727cf5 !important; color:#000; width:100% !important;border: none !important">
-                            Basic pack ( Banks transfer ) <i  class="fa fa-arrow-right" style="padding-left: 40px"></i>
+                            Basic pack ( Banks transfer ) <i  class="fa fa-arrow-right" style="position: absolute; right:20px !important; top:15px"></i>
                         </a>
 
                     </div>

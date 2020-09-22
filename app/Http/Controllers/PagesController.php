@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Jenssegers\Agent\Facades\Agent;
 
 class PagesController extends Controller
 {
     public function index()
     {
-        return view('pages.home.index');
+        $agent = new Agent();
+        return Agent::isDesktop() ?   view('pages.home.desktop.index') :  view('pages.home.mobile.index');
+
     }
 
     public function menu()
@@ -39,5 +42,10 @@ class PagesController extends Controller
     public function basic()
     {
         return view('plans.basic');
+    }
+
+    public function pricing()
+    {
+        return view('pages.pricing.index');
     }
 }

@@ -69,10 +69,10 @@
                     <a href="#" class="pl-1 pr-1"> Reach us on </a>
                   </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-whatsapp"></span></a>
+                  <a href="https://wa.me/2348127584647" class="pl-3 pr-3"><span class="icon-whatsapp"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="https://www.instagram.com/sellfast.ng/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                 </li>
 
               </ul>

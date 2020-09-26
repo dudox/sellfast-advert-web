@@ -139,7 +139,7 @@
 
                     </div>
                     <div class="content call-to-action-1">
-                        <a href="javascript:void(0)" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" data-menu="menu-basic" style="background: #727cf5 !important; color:#000; width:100% !important;border: none !important">
+                        <a href="javascript:void(0)" class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold" data-menu="menu-basic" style="background: #cc1f5c !important; color:#000; width:100% !important;border: none !important">
                             Basic pack ( Proceed ) <i  class="fa fa-arrow-right" style="position: absolute; right:20px !important; top:15px"></i>
                         </a>
 

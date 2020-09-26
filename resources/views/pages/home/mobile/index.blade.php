@@ -36,10 +36,10 @@
         <div id="menu-list" data-selected="menu-index" data-load="{{route('menu')}}" data-height="415" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-demo" data-load="{{ route('settings') }}" data-height="210" class="menu-box menu-load menu-bottom"></div>
         <div id="menu-find" data-load="menu-find.html" data-height="420" class="menu-box menu-load menu-bottom"></div>
-        <div id="menu-starter" data-load="{{ route('starter') }}" data-height="460" class="menu-box menu-load menu-bottom"></div>
-        <div id="menu-premium" data-load="{{ route('premium') }}" data-height="460" class="menu-box menu-load menu-bottom"></div>
-        <div id="menu-vip" data-load="{{ route('vip') }}" data-height="460" class="menu-box menu-load menu-bottom"></div>
-        <div id="menu-basic" data-load="{{ route('basic') }}" data-height="360" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-starter" data-load="{{ route('starter') }}" data-height="530" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-premium" data-load="{{ route('premium') }}" data-height="530" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-vip" data-load="{{ route('vip') }}" data-height="530" class="menu-box menu-load menu-bottom"></div>
+        <div id="menu-basic" data-load="{{ route('basic') }}" data-height="530" class="menu-box menu-load menu-bottom"></div>
 
 
 

@@ -4,7 +4,6 @@
     <a href="#" class="menu-hide"><i class="fa fa-times"></i></a>
 </div>
 
-
 <div class="content" style="margin: 0px">
     <div class="pricing-table pricing-4">
         <h3 class="pricing-value center-text bottom-10  bolder" style="background:#cc1f5c">₦500<sup>.00</sup></h3>

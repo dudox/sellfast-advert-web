@@ -24,7 +24,7 @@
             </center>
         </h1>
         <div id="preload-spinner"></div>
-        <p style="font-size: 15px; font-weight: 700">“Nobody counts the number of ads you run; they just remember the impression you make.”</p>
+        <p style="font-size: 15px; font-weight: 700">“Advertisement is the soul of every business.”</p>
         <em><span class="font-weght-bold" style="font-weight: 900; font-size: 14px">Powered by sellfastNG</span></em>
     </div>
     <div id="page-transitions" class="page-build light-skin highlight-blue">

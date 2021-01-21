@@ -18,6 +18,7 @@
 </head>
 
 <body>
+{{--
     <div id="preloader" class="preloader-light">
         <h1 style="margin-bottom:10px; left:50%">
             <center>
@@ -30,6 +31,7 @@
             impression you make.”</p>
         <em><span class="font-weght-bold" style="font-weight: 900; font-size: 14px">Powered by sellfastNG</span></em>
     </div>
+--}}
     <div id="page-transitions" class="page-build light-skin highlight-blue">
 
 

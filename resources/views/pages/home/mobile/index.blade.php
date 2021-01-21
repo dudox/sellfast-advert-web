@@ -119,9 +119,9 @@
                     </h1>
                     <a href="https://www.instagram.com/sellfast.ng/"
                         class="shadow-small button button-s button-center-large button-rounded bg-highlight uppercase ultrabold"
-                        style="background: #af4581 !important; width:100% !important;">
-                        Click here to follow us <i class="fa fa-mouse-pointer"
-                            style="padding: 0 0 0 10px; font-size: 20px"></i>
+                        style="background: #af4581 !important; width:100% !important; font-size:9px !important">
+                        Click here to go to our instagram page <span data-feather="instagram" data-size="3"
+                            style="margin: 5px 0 0 5px; font-size: 5px; position: absolute;"></span>
                     </a>
                 </div>
                 {{-- <div class="content call-to-action-1">
